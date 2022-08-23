@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    width: 100%;
+    background: rgb(255,200,115);
+    background: linear-gradient(221deg, rgba(255,200,115,1) 35%, rgba(211,126,198,1) 51%, rgba(255,56,103,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -1px -1px 28px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px -1px 28px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px -1px 28px 0px rgba(0,0,0,0.5);
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 30vh;
+    max-height: 30vh;
+    background: url(./assets/keyboard.jpg) center;
+    background-size: cover;
+    box-shadow: -1px -78px 27px -18px rgba(211,126,198,0.63) inset;
+    -webkit-box-shadow: -1px -78px 27px -18px rgba(211,126,198,0.63) inset;
+    -moz-box-shadow: -1px -78px 27px -18px rgba(211,126,198,0.63) inset;
+    border-bottom: 3px solid #d37ec6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-user {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    margin-top: auto;
+    position: relative;
+    top: 40px;
+    border: 3px solid #d37ec6;
+}
+.section-texts {
+    display: flex;
+    justify-content: center;
+}
+.container-texts {
+    width: 90%;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+
+}
+.link-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    margin-top: 10px;
+    color: #d37ec6;
+}
+.detalles-user {
+    font-size: 2rem;
+    margin-top: 15px;
+    color: rgb(37, 37, 37);
+}
+.link-rs {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 20%;
+    padding: 5px;
+    align-items: center;
+    color: #2d7cbf;
+    border: 1px solid  #2d7cbf;
+    border-radius: 15px;
+    
+}
+
+
+
+footer {
+    display: flex;
+}
+.container-links-footer {
+    width: 33.4%;
+    border-top: 1px solid rgb(131, 126, 126);
+    border-left: 1px solid rgb(131, 126, 126);
+}
+.link-one {
+    border-left: none;
+}
+footer p {
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+}
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  black;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
